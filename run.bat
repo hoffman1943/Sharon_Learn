@@ -1,4 +1,4 @@
 @echo off
 call venv\scripts\activate
-pytest -v -s -m --html reports/report.html
+pytest -v -s
 pause
